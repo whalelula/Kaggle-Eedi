@@ -209,14 +209,14 @@ There are some relative and possible misconceptions below to help you make the d
 
 
 # References
--https://www.kaggle.com/datasets/wuwenmin/bge-large-en-v1-5
--https://www.kaggle.com/datasets/syzong/qwen2-5-14b-instruct
--https://www.kaggle.com/datasets/gmhost/qwen2-5-32b-instruct-quant
--https://www.kaggle.com/datasets/abdurrafae/vllm-t4-fix
--https://www.kaggle.com/datasets/eugenkrylov/vllm-0-6-3-post1-wheels
--https://www.kaggle.com/datasets/emiz6413/lmsys-wheel-files
--https://www.kaggle.com/datasets/nbroad/hf-libraries
--https://www.kaggle.com/models/anhvth226/2211-lora-14b/Transformers/default/1
--https://www.kaggle.com/models/anhvth226/qw14b-awq/Transformers/default/1
--https://www.kaggle.com/code/ironbar/making-wheels-of-necessary-packages-for-vllm
--https://www.kaggle.com/models/takanashihumbert/qwen2.5/Transformers/32b-instruct-awq/1
+- https://www.kaggle.com/datasets/wuwenmin/bge-large-en-v1-5
+- https://www.kaggle.com/datasets/syzong/qwen2-5-14b-instruct
+- https://www.kaggle.com/datasets/gmhost/qwen2-5-32b-instruct-quant
+- https://www.kaggle.com/datasets/abdurrafae/vllm-t4-fix
+- https://www.kaggle.com/datasets/eugenkrylov/vllm-0-6-3-post1-wheels
+- https://www.kaggle.com/datasets/emiz6413/lmsys-wheel-files
+- https://www.kaggle.com/datasets/nbroad/hf-libraries
+- https://www.kaggle.com/models/anhvth226/2211-lora-14b/Transformers/default/1
+- https://www.kaggle.com/models/anhvth226/qw14b-awq/Transformers/default/1
+- https://www.kaggle.com/code/ironbar/making-wheels-of-necessary-packages-for-vllm
+- https://www.kaggle.com/models/takanashihumbert/qwen2.5/Transformers/32b-instruct-awq/1
