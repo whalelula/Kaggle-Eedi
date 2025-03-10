@@ -76,45 +76,6 @@ Misconception behind answer B: Confuses a reflex angle with an obtuse angle.
 Misconception behind answer D: Believes that angles above 270° are reflex angles, but does not correctly identify a reflex angle that needs to be greater than 180° and less than 360°. 
 ```
 
-Then, use GPT-4o as judge to refine the misconception rationales to fix logical flawes like answer D above. 
-Used the prompt showing below:
-```
-You will analyze how well an incorrect answer reflects a suspected misconception in a mathematics problem. Your goal is to determine whether there is a clear, logical connection between the misconception and the wrong answer.
-
-Here is the problem with both correct and incorrect answers. The suspected misconception is also provided:
-<problem>
-{generated_mcqs} 
-</problem>
-
-First, analyze the problem in <thinking>:
-<thinking>
-1. Solve the problem to verify the correct answer
-2. Examine how someone holding the suspected misconception would approach the problem
-3. Trace the logical path from misconception to incorrect answer
-4. Identify any gap or inconsistencie in this connection
-</thinking>
-
-Then examine whether the misconception perfectly leads to the incorrect answer, score from 1-5:
-<evaluation>
-- 5: Perfect - wrong answer is direct result of misconception
-- 4: Strong - clear logical path from misconception to answer
-- 3: Moderate - connection exists but has some gaps
-- 2: Weak - connection is unclear or requires assumptions
-- 1: None - misconception does not explain wrong answer
-</evaluation>
-
-Important guidelines:
-- Focus solely on the logical connection between misconception and wrong answer
-- Do not speculate about other possible misconceptions
-- Be specific about how the misconception leads to the error
-- Flag and deduct scores if any assumptions are required to connect misconception to answer
-- Consider whether a student with this misconception would consistently arrive at this wrong answer
-```
-The judge successfully detected the flaws in answer D.
-```
-Answer D (315°): Score 3 (Moderate) — The misconception that angles greater than 270° could be reflex angles leads to a selection of 315°, though the reason for this choice weakens the overall logical connection
-```
-
 Additionally, to add to the diversity. We also included the MalAlgoQA dataset. 
 
 ## 2.2 Retriever
